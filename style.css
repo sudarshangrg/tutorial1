@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+*{
+  box-sizing: border-box;
+}
+  body{
+  background-color: rgb(46, 46, 46);
+  margin: 0px;
+  padding: 0px;
+  font-family: "Sedan SC", serif;
+  color: aliceblue;
+
+}
+li,a{
+  text-decoration: none;
+  color: beige;
+}
+
+header{
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(100, 99, 99);
+}
+
+header h1{
+  color: wheat;
+  text-align: center;
+  font-family: "Sedan SC", serif;
+  cursor: pointer;
+  
+}
+.nav__links{
+  list-style: none;
+}
+
+.nav__links{
+  margin-top: 30px;
+  padding: 0%;
+
+}
+
+.nav__links li{
+  color: white;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li {
+  transition: all 2s ease 0s ;
+}
+
+.nav__links li   :hover{
+  color: rgb(19, 18, 18);
+
+}
+
+.survey{
+  width: 500px;
+  height: 300px;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid pink;
+  justify-content: center;
+  align-items: center;
+}
+/* .survey input{
+  
+} */
+
+
+
+
+  
+
